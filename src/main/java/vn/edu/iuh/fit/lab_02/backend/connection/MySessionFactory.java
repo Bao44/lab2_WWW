@@ -22,7 +22,6 @@ public class MySessionFactory {
                 .addAnnotatedClass(ProductPrice.class)
                 .getMetadataBuilder().build();
         sessionFactory = metadata.getSessionFactoryBuilder().build();
-
     }
 
     public SessionFactory getSessionFactory() {
